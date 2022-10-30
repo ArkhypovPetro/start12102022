@@ -1,0 +1,357 @@
+*{
+    box-sizing: border-box;
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+body,html{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400; 
+}
+.wrapper{
+    width: 1269px;
+    margin: 0 auto;
+}
+header{
+    position: sticky;
+    top: 0;
+    padding: 16px;
+    background-color: #fff;
+    z-index: 2;
+}
+.logo{
+    float: left;
+    font-size: 27px;
+    font-weight: 600; 
+}
+.menu,
+header button{
+    float: right;
+    font-size: 21px;
+    font-weight: 500;
+    margin-top: 19px;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    padding-left: 24px;
+}
+header button{
+    display: inline-block;
+    padding: 10px 16px;
+    margin-left: 32px;
+    background-color: #fff;
+    text-align: center;
+    color: #2203E4;
+    border: 2px solid #2203E4;
+    margin-top: 10px;
+}
+.buy:hover{
+    text-decoration: underline;
+    color: #2203E4;
+} 
+.title-left{
+    float: left;
+    margin-left: 91px;
+    margin-right: 63px;
+}
+.title-right{
+    float: right;
+    margin-top: 127px;
+    margin-bottom: 118px;
+}
+.title-left h3{
+    margin-top: 266px;
+    margin-bottom: 0px;
+    font-size: 47px;
+    font-weight: 700; 
+}
+.title-left p{
+    margin: 24px 0px;
+}
+.title-left button{
+    display: inline-block;
+    padding: 10px 16px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400; 
+}
+.authors{
+    background-color: #0062FF;
+    color: white;
+    border: #0062FF;
+    margin-right: 24px;
+}
+.demo{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-bottom: 2px solid black;
+}
+.demo:hover{
+    text-decoration: underline;
+    color: #2203E4;
+} 
+.biography-photo,
+.biography-comment{
+    float: left; 
+}
+.biography-list{
+    float: right;
+}
+.biography-photo{
+    margin: 5px 46px auto 2px;
+}
+.h-block-biography{
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 12px;
+}
+.p-block-biography{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 36px;
+}
+.biography-comment h4{
+    font-size: 27px;
+    font-weight: 600;
+    color: black;
+    margin: 0px auto 0px 0px;
+    padding: 0px;
+}
+.biography-comment h5{
+    font-size: 21px;
+    font-weight: 500;
+    color: #575757;
+    margin: 0px auto 0px 0px;
+    padding: 0px;
+}
+.biography-comment p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #575757;
+    margin: 12px auto 0px 0px;
+}
+.biography-comment-social-block ul{
+    margin: 0px 0px 145px 0px;
+    padding: 0;
+}
+.biography-comment-social-block ul li{
+    display: inline-block;
+    padding-top: 25px;
+    padding-right: 19px;
+    list-style: none;
+}
+.biography-list h5{
+    font-size: 21px;
+    font-weight: 500;
+    color: #DEA405;
+    margin: 0px;
+    padding-left: 15px;
+}
+.biography-list h6{
+    font-size: 16px;
+    font-weight: 400;
+    color: #DEA405;
+    margin: 0px;
+    padding-left: 15px;
+}
+.this-name{
+    font-size: 27px;
+    font-weight: 600;
+    color: black;
+    margin: 8px 0px 0px 0px;
+    padding-left: 15px;
+    position: relative;
+}
+.this-profession{
+    font-size: 21px;
+    font-weight: 500;
+    color: #575757;
+    margin: 0px 0px 8px 0px;
+    padding-left: 15px;
+}
+.this-name::before{
+    content: url(../05/img/less.png);
+    position: absolute;
+    left: 0px;
+    top: 20px;
+}
+.who{
+    background-color: #0062FF;
+}
+.who-comment{
+    width: 450px;
+    margin: 0px 25px 0px 34px;
+    padding-top: 0px;
+}
+.who-photo{
+    margin: 10px 0px 0px 0px;
+    padding: 0px;
+}
+.who-photo,
+.who-comment{
+    float: left;
+}
+.h-block-who{
+    font-size: 36px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    padding-top: 71px;
+    margin-bottom: 18px;
+}
+.p-block-who{
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 64px;
+}
+.who-comment h5{
+    font-size: 27px;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 14px;
+    margin-bottom: 0px;
+}
+.who-comment p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    margin-top: 8px;
+}
+.who button{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 16px;
+    margin: 64px auto 71px 580px;
+    background-color: #fff;
+    text-align: center;
+    color: #2203E4;
+    border: 2px solid #2203E4;
+ }
+ .want:hover{
+    text-decoration: underline;
+    color: #2203E4;
+} 
+.check{
+    background-color: white;
+}
+.check-photo{
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 130px;
+}
+.check-comment{
+    float: left;
+    margin-left: 80px;
+    margin-right: 48px;
+}
+.h-block-check{
+    font-size: 36px;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+    padding-top: 63px;
+    margin-bottom: 12px;
+}
+.p-block-check{
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 44px;
+}
+.check-comment h5{
+    font-size: 21px;
+    font-weight: 500;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.check-comment p{
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+    margin-top: 18px;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+.opinions-comment-wrapper2{
+    width: 1269px;
+    margin: 0 auto;
+    color: #FFBE0B;
+    overflow: hidden;
+}
+.opinions{
+    background-color: #FFBE0B;
+    background-image: url(../05/img/opinions-comment-right.png);
+    background-repeat: no-repeat;
+    background-position: top 238px right 260px;
+}
+.h-block-opinions{
+    font-size: 36px;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+    padding-top: 67px;
+    margin-bottom: 12px;
+}
+.p-block-opinions{
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 42px;
+}
+.opinions-comment{
+    width: 702px;
+    background-color: white;
+    border-radius: 12px;
+    margin: 0 auto;
+}
+.opinions-comment h4{
+    font-size: 27px;
+    font-weight: 600;
+    color: black;
+    position: relative;
+    padding-top: 37px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    padding-left: 75px;
+}
+.opinions-comment h4::after{
+    content: url(../05/img/frame.png);
+    position: absolute;
+ }
+ .opinions-comment h4::before{
+    content: url(../05/img/cloud.png);
+    position: absolute;
+    left: 16px;
+    top: 95px;
+ }
+.opinions-comment h5{
+    font-size: 21px;
+    font-weight: 500;
+    color: black;
+    margin: 0px auto 16px 75px;
+    padding: 0px;
+}
+.opinions-comment p{
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+    margin: 0px auto 56px 75px;
+    padding-bottom: 56px;
+}

@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+}
+.wrapper{
+    background-color: #E5E5E5;
+    height: 1324px;
+    width: 1376px;
+    margin: 100px auto;
+    position: relative;
+}
+.diya,
+.flag-square,
+.emblem{
+    height: 512px;
+    width: 512px;  
+}
+.diya-flag-yellow,
+.flag-square,
+.yellowround{
+    background-color: #FFCE22; 
+}
+
+.diya,
+.diya-text,
+.diya-flag-blue,
+.diya-flag-yellow{
+    position: absolute  
+}
+.diya{
+    background-color: black;
+}
+.diya-text{
+    top: 128px;
+    left: 101px;
+}
+.diya-flag-blue,
+.diya-flag-yellow{
+    width: 80px;
+    height: 30px;   
+}
+.diya-flag-blue{
+    background-color: blue;
+    top: 343px;
+    left: 216px;
+    border-radius: 5px 5px 0 0;
+}
+.diya-flag-yellow{
+    bottom: 109px;;
+    left: 216px;
+    border-radius: 0 0 5px 5px;
+}
+.flag-square,
+.blue-square,
+.wave{
+    position: absolute;
+}
+.flag-square{
+    top: 395px;
+    left: 441px;
+    z-index: 1;
+}
+.wave{
+    top: 144px;
+    left: 52.61px;
+}
+.emblem,
+.yellowround,
+.blueround,
+.waveyellow{
+    position: absolute;
+}
+.emblem{
+    background-color: white;
+    bottom: 0px;
+    right: 0px;
+    z-index: 0;
+    border-top: 4px solid rgb(128, 128, 190);
+    border-bottom: 4px solid rgb(128, 128, 190);
+}
+.yellowround,
+.blueround{
+    top: 34px;
+    left: 34px;
+}
+.yellowround{
+    width: 444px;
+    height: 444px;
+    border-radius: 222px;
+}    
+.waveyellow{
+    bottom: 58px;
+    left: 77px;
+}
