@@ -13,6 +13,7 @@ body,html{
 .wrapper{
     width: 1269px;
     margin: 0 auto;
+    overflow: hidden;
 }
 header{
     position: sticky;
@@ -195,6 +196,18 @@ header button{
     margin: 10px 0px 0px 0px;
     padding: 0px;
 }
+.block-student{
+    float: left;
+}
+.block-freelaners{
+    float: right;
+}
+.block-agency{
+    float: left;
+}
+.block-marketers{
+    float: right;
+}
 .who-photo,
 .who-comment{
     float: left;
@@ -287,17 +300,23 @@ header button{
     margin-bottom: 0px;
     padding: 0px;
 }
-.opinions-comment-wrapper2{
-    width: 1269px;
-    margin: 0 auto;
-    color: #FFBE0B;
-    overflow: hidden;
-}
 .opinions{
     background-color: #FFBE0B;
-    background-image: url(../05/img/opinions-comment-right.png);
-    background-repeat: no-repeat;
-    background-position: top 238px right 260px;
+}
+.opinions-comment{
+    position: relative;
+}
+.opinions-comment::before{
+    content: url(../05/img/opinions-comment-left.png);
+    position: absolute;
+    right: 700px;
+    top: -20px;
+}
+.opinions-comment::after{
+    content: url(../05/img/opinions-comment-right.png);
+    position: absolute;
+    left: 700px;
+    top: -20px;
 }
 .h-block-opinions{
     font-size: 36px;
@@ -354,4 +373,117 @@ header button{
     color: black;
     margin: 0px auto 56px 75px;
     padding-bottom: 56px;
+}
+.start{
+    background-color: white;
+}
+.start-photo{
+    float: left;
+    margin-top: 0px;
+    margin-left: 158px;
+}
+.start-comment{
+    float: right;
+    padding-top: 73px;
+    margin-right: 155px;
+}
+.h-block-start{
+    font-size: 36px;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+    padding-top: 89px;
+    margin-bottom: 12px;
+}
+.p-block-start{
+    font-size: 16px;
+    font-weight: 400;
+    color: #575757;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 80px;
+}
+.start-comment h4{
+    font-size: 16px;
+    font-weight: 400;
+    color:#000000;
+    margin: 0px;
+    padding: 0px;
+}
+.start-comment h4::before{
+    content: url(../05/img/frame.png);
+    position: relative;
+    top: 7px;
+ }
+ .start-comment h3{
+    font-size: 36px;
+    font-weight: 600;
+    color:#2203E4;
+    margin: 0px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.start-comment p{
+    font-size: 16px;
+    font-weight: 400;
+    color:#575757;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 0px;
+}
+.start-comment button{
+    display: inline-block;
+    padding: 10px 16px;
+    background-color: #0062FF;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    border: 2px solid #0062FF;
+    margin-top: 26px;
+}
+.cart:hover{
+    text-decoration: underline;
+    color: #2203E4;
+}
+.discount h4{
+    font-size: 27px;
+    font-weight: 600;
+    color:#000000;
+    text-align: center;
+    margin-top: 74px;
+    margin-bottom: 28px;
+    padding: 0px;
+}
+.discount input{
+    width: 508px;
+    margin-left: 376px;
+    margin-bottom: 14px;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: rgba(58, 134, 255, 20%);
+    padding: 25px 0px 25px 24px;
+    border: 2px solid white;
+}
+.email-input::placeholder{
+    color: #2203E4;
+    background-color: rgba(58, 134, 255, 5%);
+}
+.discount input:hover{
+    border: 4px solid #2203E4;
+}
+.discount button{
+    display: inline-block;
+    width: 508px;
+    margin-left: 376px;
+    padding: 10px;
+    background-color: #0062FF;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    border: 2px solid white;
+    margin-bottom: 103px;
+    margin-left: 376px;
 }
