@@ -1,0 +1,756 @@
+*{
+    box-sizing: border-box;
+}
+.gradient{
+    background-image: linear-gradient(180deg, rgba(0,0,0,0.37298669467787116) 65%, rgba(0,0,0,0.9304096638655462) 91%), linear-gradient(345deg, rgba(0,0,0,0.37298669467787116) 65%, rgba(0,0,0,0.9304096638655462) 91%), url(../07/img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+body,html{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: white;
+    background-color: black;
+    padding: 0px;
+    margin: 0px;
+}
+.wrapper{
+    width: 82%;
+    margin: 0 auto;
+}
+h4{
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFC178;  
+}
+h3{
+    font-size: 64px;
+    font-weight: 700;
+}
+p{
+    font-size: 18px;
+    font-weight: 600;
+}
+a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    color: #FBD784;   
+}
+.block-header{
+    width: 100%;
+    padding-top: 58px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.logo{
+    width: 13%;
+    font-size: 24px;
+    font-weight: 700;
+}
+.menu{
+    width: 74%;
+}
+.menu a{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    padding: 0px 25px;
+}
+.menu-button{
+    display: none;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    border: 3px solid white;
+}
+.menu-button::before{
+    position: relative;
+    display: block;
+    content: '';
+    border-bottom: 3px solid white;
+    width: 20px;
+    top: 10px;
+    left: 6px;
+}
+.menu-button::after{
+    position: relative;
+    display: block;
+    content: '';
+    border-bottom: 3px solid white;
+    width: 20px;
+    top: 18px;
+    left: 6px;
+}
+.search{
+    width: 13%;
+}
+.search a{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 400;
+    color: white;
+}
+.search::before{
+    content: url(../07/img/magnifier.png);
+    position: relative;
+    right: 14px;
+ }
+ .social-discover{
+    padding-top: 11%;
+    padding-bottom: 50%;
+    display: flex;
+ }
+ .social{
+    width: 70px;
+    text-align: center;
+    padding: 0px;
+ }
+ .discover{
+    width: 100%;
+ }
+ .turn{
+    writing-mode: vertical-lr;
+    text-decoration: none;
+    margin: 40px auto 0px;
+ }
+ .turn a{
+    text-decoration: none;
+    color: white;
+ }
+ .social ul li{
+    list-style: none;
+    font-size: 18px;
+    text-align: center;
+    padding: 11px 0;
+}
+.social ul{
+    padding: 11px 0;
+    text-align: center;
+}
+.discover h4{
+    margin: 0px;
+    padding-left: 36%; 
+}
+.discover h4::before{
+    position: relative;
+    display: block;
+    content: '';
+    border-bottom: 3px solid #FFC178;
+    width: 7%;
+    right: 9%;
+    top: 15px;
+ }
+.discover h3{
+    font-size: 88px;
+    font-weight: 400;
+    margin: 0px;
+    padding-left: 29%; 
+}
+.fat{
+    font-size: 96px;
+    font-weight: 700;    
+}
+.scroll{
+    text-align: center;
+    padding-top: 7%;
+}
+.scroll a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+}
+.scroll::after{
+    content: url(../07/img/arrow_down.png);
+    position: relative;
+    right: -9px;
+}
+.tenggara{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 250px;
+}
+.tenggara-foto{
+    width: 40%;
+    position: relative;
+    align-self: start;
+    top: -40px;
+}
+.tenggara-foto img{
+    width: 100%;
+}
+.tenggara-text{
+    width: 40%;
+    text-align: left;
+    align-self: center;
+}
+.tenggara-text h4{
+    margin: 0px;
+    padding-left: 14%; 
+}
+.tenggara-text h4::before{
+    position: relative;
+    display: block;
+    content: '';
+    border-bottom: 3px solid #FFC178;
+    width: 14%;
+    right: 18%;
+    top: 11px;
+}
+.tenggara-text h3{
+    margin: 0px;
+    padding: 20px 0px; 
+}
+.tenggara-text p{
+    margin: 0px;
+    padding: 0px;
+}
+.read{
+    padding-top: 27px;
+}
+.read::after{
+    content: url(../07/img/arrow_right.png);
+    position: relative;
+    top: 2px;
+    right: -7px;
+}
+.bromo{
+    background-image: url(./img/image2.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: 1000px;
+}
+.arrows{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 35%;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.arrows img{
+    width: 100%;
+}
+.bromo-text{
+    width: 64%;
+    margin: auto;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+.bromo-text h4{
+    margin: 0px;
+}
+.bromo-text h4::before{
+    position: relative;
+    display: block;
+    content: '';
+    border-bottom: 3px solid #FFC178;
+    width: 7%;
+    right: -37%;
+    top: 15px;
+}
+.bromo-text h4::after{
+    position: relative;
+    display: block;
+    content: '';
+    border-bottom: 3px solid #FFC178;
+    width: 7%;
+    left: 56%;
+    top: -15px;
+}
+.bromo-text h3{
+    margin: 0px;
+    padding: 25px 0px; 
+}
+.bromo-text p{
+    margin: 0px;
+    padding: 0px;
+}
+.indonesian{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 226px;
+    padding-bottom: 250px;
+}
+.indonesian-foto{
+    width: 40%;
+    position: relative;
+    align-self: start;
+}
+.indonesian-foto img{
+    width: 100%;
+}
+.indonesian-text{
+    width: 40%;
+    text-align: left;
+    align-self: center;
+}
+.indonesian-text h4{
+    margin: 0px;
+    padding-left: 14%; 
+}
+.indonesian-text h4::before{
+    position: relative;
+    display: block;
+    content: '';
+    border-bottom: 3px solid #FFC178;
+    width: 14%;
+    right: 18%;
+    top: 11px;
+}
+.indonesian-text h3{
+    margin: 0px;
+    padding: 20px 0px; 
+}
+.indonesian-text p{
+    margin: 0px;
+    padding: 0px;
+}
+.qwery{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+.qwery-form{
+    display: flex;
+    align-self: center;
+}
+.qwery-name h3{
+    font-size: 48px;
+    font-weight: 700;
+}
+.explore-form input{
+    background-color: black;
+    font-size: 22px;
+    font-weight: 400;
+    padding: 20px 0px 20px 20px;
+    border: none;
+}
+.explore-input::placeholder{
+    color: white;
+    background-color: black;
+}
+.explore-form input:hover{
+    border: 4px solid #2203E4;
+}
+.qwery-form button{
+    display: inline-block;
+    padding: 24px 70px;
+    background-color: #FFA343;
+    text-align: center;
+    color: black;
+    font-size: 17px;
+    font-weight: 700;
+    border: none;
+    border-radius: 8px;
+}
+.down{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.email h3{
+    padding-top: 20px;
+    padding-bottom: 50px;
+    margin: 0px;
+    font-size: 36px;
+    font-weight: 700;
+}
+.email-form{
+    display: flex;
+}
+.email-form input{
+    background-color: black;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 19px 220px 31px 15px;
+    border: none;
+    border-bottom: 2px solid white;
+}
+.email-input::placeholder{
+    color: white;
+    background-color: black;
+}
+.email-form input:hover{
+    border: 4px solid #2203E4;
+}
+.email-form button{
+    display: inline-block;
+    padding: 24px;
+    background-color: #FFA343;
+    text-align: center;
+    color: black;
+    font-size: 17px;
+    font-weight: 700;
+    border: none;
+    border-bottom: 2px solid white;
+    border-radius: 8px 8px 0px 0px;
+}
+.down ul li{
+    list-style: none;
+    font-size: 19px;
+    font-weight: 400; 
+    padding: 15px 0px;
+}
+.down a{
+    color: white;
+}
+.orenge a{
+    color: #FFD1A0;
+    font-size: 20px;
+    font-weight: 700; 
+}
+.information{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 100px;
+}
+.legal{
+    width: 25%;
+}
+.legal a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+    padding: 0px 25px;
+}
+.social-footer{
+    width: 75%;
+    text-align: end;
+}
+.social-footer a{
+    width: 75%;
+    text-align: end;
+    padding: 0px 25px;
+}
+.copyright{
+    width: 100%;
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 155px;
+    align-self: center;
+    text-align: center;
+}
+@media(max-width: 1000px){
+    h4{
+        font-size: 12px;
+    }
+    h3{
+        font-size: 28px;
+    }
+    p{
+        font-size: 12px;
+    }
+    a{
+        font-size: 12px;
+    }
+    .block-header{
+        padding-top: 38px;
+    }
+    .logo{
+        width: 13%;
+        font-size: 16px;
+    }
+    .menu a{
+        font-size: 12px;
+    }
+    .search a{
+        font-size: 11px;
+    }
+    .social ul li{
+        font-size: 12px;
+    }
+    .discover h3{
+        font-size: 58px;
+    }
+    .fat{
+        font-size: 64px;
+    }
+    .scroll a{
+        font-size: 12px;
+    }
+    .bromo{
+        height: 500px;
+    }
+    .bromo-text{
+        width: 85%;
+    }
+    .bromo-text h3{
+        padding: 5px 0px; 
+    }
+    .qwery-name h3{
+        font-size: 32px;
+    }
+    .explore-form input{
+        font-size: 14px;
+    }
+    .qwery-form button{
+        font-size: 11px;
+    }
+    .email h3{
+        font-size: 24px;
+    }
+    .email-form input{
+        font-size: 10px;
+    }
+    .email-form button{
+        font-size: 11px;
+    }
+    .down ul li{
+        font-size: 13px;
+    }
+    .orenge a{
+        font-size: 13px;
+    }
+    .legal a{
+        font-size: 10px;
+    }
+    .information{
+        padding-top: 50px;
+    }
+    .copyright{
+        font-size: 12px;
+        padding-top: 55px;
+    }
+    .read{
+        padding-top: 7px;
+    }
+    .tenggara{
+        padding-bottom: 50px;
+    }
+    .indonesian{
+        padding-top: 0px;
+        padding-bottom: 50px;
+    }
+    .bromo{
+        padding-bottom: 0px;
+    }
+}
+@media(max-width: 390px){
+    h4{
+        font-size: 5px;
+    }
+    h3{
+        font-size: 16px;
+    }
+    p{
+        font-size: 5px;
+    }
+    a{
+        font-size: 5px;
+    }
+    .block-header{
+        justify-content: space-between;
+        padding-top: 14px;
+    }
+    .logo{
+        width: 33%;
+        font-size: 6px;
+    }
+    .menu{
+        display: none;
+        width: 33%;
+    }
+    .menu-button{
+        display: block;
+    }
+    .search{
+        width: 33%;
+    }
+    .search a{
+        font-size: 4px;
+    }
+    .turn{
+        margin: 10px auto 0px;
+    }
+    .turn a{
+        text-decoration: none;
+        color: white;
+    }
+    .social ul li{
+        font-size: 5px;
+        padding: 5px 0;
+    }
+    .social ul{
+        padding: 5px 0;
+    }
+    .discover h3{
+        font-size: 30px;
+    }
+    .fat{
+        font-size: 22px;
+    }
+    .scroll{
+        text-align: center;
+        padding-top: 7%;
+    }
+    .scroll a{
+        font-size: 5px;
+    }
+    .tenggara{
+        flex-wrap: wrap;
+        padding-bottom: 25px;
+    }
+    .tenggara-foto{
+        width: 100%;
+    }
+    .tenggara-text{
+        width: 85%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .tenggara-text h3{
+        padding: 5px 0px; 
+    }
+    .read{
+        padding-top: 7px;
+    }
+    .bromo{
+        height: 150px;
+    }
+    .arrows{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .bromo-text{
+        width: 85%;
+    }
+    .bromo-text h3{
+        padding: 8px 0px; 
+    }
+    .indonesian{
+        flex-wrap: wrap;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .indonesian-foto{
+        width: 100%;
+    }
+    .indonesian div:nth-child(1){
+        order: 2;
+    }
+    .indonesian div:nth-child(2){
+        order: 1;
+    }
+    .indonesian-text{
+        width: 85%;
+        text-align: center;
+        margin: 0 auto;
+      }
+    .indonesian-text h3{
+        padding: 5px 0px; 
+    }
+    .qwery{
+        flex-wrap: wrap;
+    }
+    .qwery-name h3{
+        font-size: 12px;
+    }
+    .explore-form input{
+        font-size: 6px;
+        padding: 5px 0px 5px 5px;
+    }
+    .qwery-form button{
+        padding: 7px 18px;
+        font-size: 4px;
+    }
+    .down{
+        flex-wrap: wrap;
+        padding-top: 12px;
+    }
+    .email{
+        width: 90%;
+        align-self: center;
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+    }
+    .email h3{
+        padding-top: 5px;
+        padding-bottom: 12px;
+        font-size: 9px;
+    }
+    .email-form input{
+        font-size: 4px;
+        padding: 4px 55px 8px 4px;
+    }
+    .email-form button{
+        padding: 8px;
+        font-size: 4px;
+    }
+    .down ul{
+        padding: 0px;
+    }
+    .down ul li{
+        font-size: 5px;
+        padding: 5px 0px;
+    }
+    .orenge a{
+        font-size: 5px;
+    }
+    .information{
+        padding-top: 10px;
+    }
+    .legal{
+        width: 40%;
+    }
+    .social-footer{
+        width: 60%;
+    }
+    .legal a{
+        font-size: 4px;
+        padding: 0px 5px;
+    }
+    .social-footer a{
+        padding: 0px 5px;
+    }
+    .copyright{
+        font-size: 5px;
+        padding-top: 15px;
+    }
+    .discover h4::before{
+        border-bottom: 2px solid #FFC178;
+        width: 7%;
+        right: 9%;
+        top: 5px;
+    }
+    .tenggara-text h4::before{
+        border-bottom: 1px solid #FFC178;
+        width: 14%;
+        right: -15%;
+        top: 4px;
+    }
+    .bromo-text h4::before{
+        border-bottom: 1px solid #FFC178;
+        top: 4px;
+    }
+    .bromo-text h4::after{
+        border-bottom: 1px solid #FFC178;
+        top: -4px;
+    }
+    .arrows{
+        padding-top: 0%;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .arrows img{
+        width: 40%;
+    }
+    .indonesian-text h4::before{
+        border-bottom: 1px solid #FFC178;
+        width: 14%;
+        right: -16%;
+        top: 4px;
+    }
+
+}
+  
